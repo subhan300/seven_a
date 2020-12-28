@@ -1,5 +1,5 @@
 import React,{useEffect,useState} from 'react';
-
+import {initNotification} from "./SERVICES/Firebase_Service"
 import './App.css';
 import {GetQuizDetail} from "./SERVICES/Quiz_Service"
 import {Quiz,QuestionType} from "./TYPES/Quiz_Types" 
@@ -71,10 +71,13 @@ if(showResult){
 
 return(
     <div className="App">
-
+  
       <QusetionCard  options={quiz[currentState].options} questions={quiz[currentState].question}    
       handlerSubmit={HandlerSubmit} />
       
+ 
+  {setTimeout(()=>alert("allow to get notifications" + initNotification()),1000)}
+    
     </div>
   )
 }
