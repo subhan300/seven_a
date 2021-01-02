@@ -4691,6 +4691,11 @@ cosmiconfig@^7.0.0:
     path-type "^4.0.0"
     yaml "^1.10.0"
 
+cra-template-pwa@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/cra-template-pwa/-/cra-template-pwa-1.0.3.tgz#dcb9f8b63a54b02517e6c085ee2a17a1f5c64e44"
+  integrity sha512-YJeZb/gdymnkwzMJcSAy1mZyuTE1TaVD5rmhP1jyw2Lk2baKDSn4r1wCoWX+mSwhZZfVvxM4bOgJ8onCiIIYVg==
+
 crc32-stream@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/crc32-stream/-/crc32-stream-3.0.1.tgz#cae6eeed003b0e44d739d279de5ae63b171b4e85"
